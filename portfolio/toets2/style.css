@@ -1,0 +1,141 @@
+html {
+    background-color: #99B898;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #FECEA8;
+    border-radius: 25px;
+    border: 2px solid #FF847C;
+    padding: 20px; 
+    width: 1200px;
+    height: 886px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: 'Seaweed Script';
+    color: #E84A5F;
+    font-size: 60px;
+    margin: 0px;
+}
+
+h1 > .subtitle {
+    font-size: 45px;
+}
+
+.navbar > ul {
+    list-style: none;
+}
+
+.navbar > ul > li {
+    display: inline-block;
+    width: 150px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 2px solid #FF837A;
+    background-color: #FF837A;
+    padding: 15px;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.1)
+    6px 4px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Merriweather';
+    font-size: 15px;
+    color: black;
+    font-weight: 300;
+}
+
+.active {
+    color: #E84A5F;
+    text-decoration: solid;
+    font-weight: 900;
+    font-family:'Merriweather';
+}
+
+.sidebar {
+    border-radius: 10px;
+    background-color: #FFCC8E;
+    width: 310px;
+    height: 600px;
+    font-family: 'Merriweather';
+    font-size: 15px;
+    padding: 10px;
+    float:left;
+}
+
+.sidebar > article > h2 {
+    color: #E84A5F;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+    padding-top: 10px;
+}
+
+article {
+    padding-top:20px;
+    border-top: 1px solid #E84A5F;
+}
+
+article:first-child {
+    border-top: none;
+    padding-top: 0px;
+}
+
+figcaption {
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+p {
+    font-weight: 300;
+    padding: 0px;
+    margin-block-start: 0px;
+}
+
+main {
+    display: block;
+    width: 822px;
+    height: 586px;
+    font-family: 'Merriweather';
+    margin: 0px;
+    float: right;
+}
+
+main > section {
+    margin-top: 50px;
+}
+
+main > section:first-child {
+    margin-top: 0;
+}
+
+main > section > h2 {
+    color: #E84A5F;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 7px;
+}
+
+.page-footer {
+    clear: both;
+    padding: 10px;
+    border-top: 1px solid #FF847C;
+    font-size: 10px;
+    line-height: 1.2;
+    font-family: 'Helvetica-Neue';
+}
+
+
+
+

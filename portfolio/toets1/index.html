@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <style>
+        html {
+            font-family: Calibri, sans-serif;
+        }
+        h1 {
+            color: brown;
+            font-size: 24px;
+        }
+        p {
+            font-size: 12px;
+        }
+        blockquote {
+            color: gray;
+            font-size: 12px;
+        }
+        cite {
+            font-size: 9px;
+        }
+        h2 {
+           color: orange;
+           font-size: 16px;
+        }
+        figcaption {
+            font-size: 10px;
+        }
+        code {
+            font-family: monospace, sans-serif;
+            font-size: 12px;
+            color: white;
+            background-color: black;
+        }
+     </style>
+</head>
+<body>
+
+    <figure>
+        <img src="fotostudent.jpg" alt="foto student">
+    </figure>
+
+    <main>
+        <section>
+            <h1>On learning a new programming language</h1>
+            <p>
+                When I started my career, books with titles such as "Teach Yourself C in 21 Days", and "Learn Java in 7 Days" were pretty popular. I was impressed that people could read such books. I never thought I could learn a new language in such a small amount of time myself. Time has passed. I've come to realize that I'm not alone in that case. Those books just happen to stretch the definition of learning a new programming language - and I'm being polite. In this post, I'd like to detail a bit of my definition of learning.
+            </p>
+            
+            <blockquote>
+                “Learn syntax of language X: days <br>
+                Write idiomatic code in X: years <br>
+                Know most useful APIs & libraries: lifetime”
+            </blockquote>
+            <cite>
+                Nicolas Frankel (@Home for a long time I believe)
+                @nicolas_frankel
+            </cite>
+
+        </section>
+       
+        <section>
+            <h2>What defines a new language?</h2>
+
+            <p>Learning one's first programming language <strong>is a hard challenge.</strong> You need to learn a lot of different concepts: condition evaluations, loops, etc.! In the following, let's consider that one already knows at least a language.</p>
+            <p> The question is how similar the new language is, compared to the one(s) already known. Wikipedia has a <a href="https://en.wikipedia.org/wiki/Comparison_of_programming_languages">tentative comparison</a> with a set of specific criteria. But for similarity, this is not enough. I can yet offer some hints from my own experience.</p>
+            <p>Likewise, when I had to write JavaScript, the syntax was again familiar. Loops and condition evaluations were the same, despite the obvious lack of types, of classes (at the time), etc.</p>
+        
+        </section>
+
+        <section>
+            <h2>Learning what?</h2>
+
+            <p>Another issue in the above books' claim is what the reader will be learning.</p>
+            <p>In the above section, I wrote a lot about syntax. When one considers that aspect, C, JavaScript, Scala, Java all are pretty similar. Learning the syntax is just a matter of days. But, there's much more.</p>
+            
+            <figure>
+                <img src="fotoscala.png" alt="logo scala">
+                <figcaption>Fig. 1 Logo of the Scala programming language</figcaption>
+            </figure>
+            <p>Beyond that, one needs to know about the libraries: any non-trivial application requires a lot of common utilities e.g. date formatting, HTTP client, etc. While the language syntax can provide some of these utilities, APIs handle the rest. These APIs might be available out-of-the-box - Java's HttpClient, by a standard library - Kotlin' stdlib, or by third-party libraries. </p>
+
+            <p>Some differences exist depending on the language's ecosystem. Java offers more choices of third-party libraries than in C#. They tend to change more often in JavaScript than in Java. </p>
+                
+            <p>Regardless, learning a new language as a newcomer is about:</p>
+
+            <ul>
+                <li>Getting to know the APIs</li>
+                <li>What features they provide</li>
+                <li>Understanding their respective pros and cons</li>
+                <li>Choosting the best suited to one's project</li>
+            </ul>
+
+            <p>The next level is even more involved. When Java started getting popular in the enterprise world, some C developers made the jump. By reading a code snippet, one could establish whether a new Java developer or a former C one was the author. Curly braces on a new line were one clue. </p>
+            <p>But the definitive clue came from dereferencing local variables at the end of the methods:</p>
+
+            <code>
+                public void foo() { <br>
+                    Object foo = new Object();      <1> <br>
+                    // Work with foo <br>
+                    foo = null;                     <2> <br>
+                  }                  
+            </code>
+
+            <ol>
+                <li>Assign a value to foo</li>
+                <li>Make sure the Object instance is not referenced anymore</li>
+            </ol>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Originally published at <a href="https://blog.frankel.ch/on-learning-new-programming-language/">A Java Geek</a> on October 4th, 2020</p>
+    </footer>
+</body>
+</html>
