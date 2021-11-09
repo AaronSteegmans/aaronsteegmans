@@ -1,0 +1,157 @@
+html {
+    font-family: "Karla" , sans-serif;
+    box-sizing: border-box;
+}
+body {
+
+    background-color: #35b16d;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+main {
+    margin-top: 20%;
+    margin-top: 150px;
+    display: block;
+}
+
+header {
+
+}
+
+nav > ul {
+
+}
+
+nav > ul > li {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    background-color: #05386B;
+    line-height: 30px;
+    float: right;
+    margin-right: 5px;
+}
+
+header * {
+    display: inline;
+}
+
+li a {
+    color: #EDF5E1;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: #EDF5E1;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    margin: 0;
+}
+
+h2 {
+    color: #EDF5E1;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.linkedin, .github {
+    width: 75px;
+    height: 75px;
+    object-fit: fill;
+}
+
+.footerhome {
+    margin: auto;
+    width: 50%;
+    clear: both;
+    margin-top: 30%;
+}
+
+footer > ul {
+    justify-content: center;
+    display: flex;
+}
+
+footer > ul > a{
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    color: #EDF5E1;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.short1, .short2 {
+    font-family: 'Spectral';
+    color: #EDF5E1;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.short1 {
+    width: 350px;
+    float: left;
+    margin: 0;
+    margin-left: 20px;
+    
+}
+
+.short2 {
+    width: 350px;
+    margin-left: 400px;
+}
+
+.cv {
+    font-size: 75px;
+    color: #EDF5E1;
+}
+
+article > h2 {
+    color: #05386B;
+    margin: 0;
+}
+
+article > ul {
+    color: #EDF5E1;
+    list-style: '- ';
+}
+
+p {
+    font-family: 'Spectral';
+    color: #EDF5E1;
+    font-size: 20px;
+}
+
+label {
+    color: #05386B;
+    font-weight: 800;
+    font-family: 'Karla', sans-serif;
+}
+
+legend {
+    color: #EDF5E1;
+    font-weight: 800;
+    font-family: 'Karla', sans-serif;
+}
+
+input {
+    color: #05386B;
+    font-weight: 800;
+    font-family: 'Karla', sans-serif;
+}
